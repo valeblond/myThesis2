@@ -9,6 +9,7 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)	
 
 
 2) 'measure2':   
@@ -22,6 +23,7 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
 
 
 3) 'measure3':   
@@ -35,6 +37,7 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
 
 
 4) 'measure4':   
@@ -48,6 +51,8 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
+
 
 5) 'measure5':   
 		batch size    = 64
@@ -60,6 +65,8 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
+
 
 6) 'measure6':   ('measure6_2' is the same. It was made on my computer.)
 		batch size    = 64
@@ -72,6 +79,8 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
+
 
 7) 'measure7':   
 		batch size    = 64
@@ -84,8 +93,10 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
 
-7) 'measure8':   
+
+8) 'measure8':   
 		batch size    = 32
 		image size    =	64x64 
 		epochs number = 400
@@ -96,4 +107,29 @@
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
+		optimizer     = Adam (adaptive learning rate optimization algorithm) = (Adaptive moment estimation)
+
+
+9) 'measure9' [BAD RESULT]:   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 400
+=======================================================================================================================================================
+		lr            = 0.0002
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = ASGD (Averaged Stochastic Gradient Descent) = (Adaptive moment estimation)
+
+
+10) 'measure10' [BAD RESULT]:   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 700
+=======================================================================================================================================================
+		lr            = 0.0002
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = ASGD (Averaged Stochastic Gradient Descent) = (Adaptive moment estimation)
 
