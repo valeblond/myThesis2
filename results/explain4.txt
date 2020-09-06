@@ -133,3 +133,53 @@
 		z_size        = 100
 		optimizer     = ASGD (Averaged Stochastic Gradient Descent) = (Adaptive moment estimation)
 
+
+11) 'measure11':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 400
+=======================================================================================================================================================
+		lr            = 0.0002
+		alpha 	      = 0.5
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = RMSprop (Root Mean Square Propagation)
+
+12) 'measure12':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 400
+=======================================================================================================================================================
+		lr            = 0.0002
+		alpha 	      = 0.9
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = RMSprop (Root Mean Square Propagation)
+
+
+13) 'measure13':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 600
+=======================================================================================================================================================
+		lr            = 0.0002
+		alpha 	      = 0.9
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = RMSprop (Root Mean Square Propagation)
+
+
+14) 'measure14':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 600
+=======================================================================================================================================================
+		lr            = 0.0002
+		alpha 	      = 0.5
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = RMSprop (Root Mean Square Propagation)
