@@ -4,8 +4,32 @@
 		epochs number = 400
 =======================================================================================================================================================
 		lr            = 0.0002
-		alpha 	      = 0.9
 		d_conv_dim    = 64
 		g_conv_dim    = 64
 		z_size        = 100
 		optimizer     = SGD (Stochastic Gradient Descent)
+
+
+20) 'measure20':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 1200
+=======================================================================================================================================================
+		lr            = 0.0002
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = SGD (Stochastic Gradient Descent)
+
+
+21) 'measure21':   
+		batch size    = 64
+		image size    =	64x64 
+		epochs number = 1200
+=======================================================================================================================================================
+		lr            = 0.0002
+		alpha 	      = 0.9
+		d_conv_dim    = 64
+		g_conv_dim    = 64
+		z_size        = 100
+		optimizer     = RMSprop (Root Mean Square Propagation)
