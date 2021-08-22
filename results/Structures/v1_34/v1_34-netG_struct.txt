@@ -1,0 +1,59 @@
+Generator(
+  (ConvTranspose2d_1a_3x3): BasicConvTranspose2d(
+    (convTranspose): ConvTranspose2d(100, 512, kernel_size=(4, 4), stride=(1, 1), bias=False)
+    (bn): BatchNorm2d(512, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (ConvTranspose2d_2a_3x3): BasicConvTranspose2d(
+    (convTranspose): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
+    (bn): BatchNorm2d(256, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (ConvTranspose2d_2b_3x3): BasicConvTranspose2d(
+    (convTranspose): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
+    (bn): BatchNorm2d(128, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (MixedTranspose_7b): InceptionTransposeE(
+    (branch1x1): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 17, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): BatchNorm2d(17, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3_1a): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 25, kernel_size=(3, 1), stride=(1, 1), padding=(1, 0), bias=False)
+      (bn): BatchNorm2d(25, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3_1b): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 25, kernel_size=(1, 3), stride=(1, 1), padding=(0, 1), bias=False)
+      (bn): BatchNorm2d(25, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3_2): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(50, 50, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): BatchNorm2d(50, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3dbl_1a): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 25, kernel_size=(1, 3), stride=(1, 1), padding=(0, 1), bias=False)
+      (bn): BatchNorm2d(25, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3dbl_1b): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 25, kernel_size=(3, 1), stride=(1, 1), padding=(1, 0), bias=False)
+      (bn): BatchNorm2d(25, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3dbl_2): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(50, 50, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn): BatchNorm2d(50, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch3x3dbl_3): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(50, 50, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): BatchNorm2d(50, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (branch_pool): BasicConvTranspose2d(
+      (convTranspose): ConvTranspose2d(128, 11, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      (bn): BatchNorm2d(11, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (ConvTranspose2d_new1_3x3): BasicConvTranspose2d(
+    (convTranspose): ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
+    (bn): BatchNorm2d(64, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (ConvTranspose2d_new2_3x3): BasicConvTranspose2d_2(
+    (convTranspose): ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
+  )
+)

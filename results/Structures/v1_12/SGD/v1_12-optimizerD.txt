@@ -1,0 +1,8 @@
+SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.0002
+    momentum: 0
+    nesterov: False
+    weight_decay: 0
+)

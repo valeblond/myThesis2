@@ -1,0 +1,15 @@
+ngpu 1
+d_conv_dim 64
+g_conv_dim 64
+z_size 100
+n_epochs 1000
+img_size 64
+batch_size 64
+real_label 1
+fake_label 0
+Loss_name:  BCELoss
+Optim_name1:  Adam
+Optim_name2:  RMSprop
+lr 0.0002
+beta1 0.9
+beta2 0.999

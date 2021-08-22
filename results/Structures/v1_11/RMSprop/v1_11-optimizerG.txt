@@ -1,0 +1,9 @@
+RMSprop (
+Parameter Group 0
+    alpha: 0.5
+    centered: False
+    eps: 1e-08
+    lr: 0.0002
+    momentum: 0
+    weight_decay: 0
+)
